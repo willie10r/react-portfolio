@@ -1,10 +1,10 @@
 import React from 'react';
 import { ReactDOM } from 'react-dom';
-  import { 
-    Route,
-    Router,
-    Routes
-  } from 'react-router-dom';
+import {
+  Route,
+  Router,
+  Routes
+} from 'react-router-dom';
 import '../scss/styles.scss';
 
 //components
@@ -13,10 +13,11 @@ import Home from './Home';
 import Projects from './Projects';
 import Contact from './Contact';
 
-const App= () => {
+const App = () => {
   return (
     <div className="App">
       <Navigation></Navigation>
+      {/* the switch for the page redering has been replaced by <routes> in the new react update */}
       <Routes>
         <Route exact path='/' element={<Home></Home>}></Route>
         <Route path='/Projects' element={<Projects></Projects>}></Route>
