@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import '../scss/styles.scss';
 
+
 //components
 import Navigation from './Navigation';
 import Home from './Home';
@@ -15,14 +16,17 @@ import Contact from './Contact';
 
 const App = () => {
   return (
-    <div className="App">
-      <Navigation></Navigation>
-      {/* the switch for the page redering has been replaced by <routes> in the new react update */}
-      <Routes>
-        <Route exact path='/' element={<Home></Home>}></Route>
-        <Route path='/Projects' element={<Projects></Projects>}></Route>
-        <Route path='/Contact' element={<Contact></Contact>}></Route>
-      </Routes>
+    <div className="App" >
+
+      <div>
+        <Navigation></Navigation>
+        {/* the switch for the page redering has been replaced by <routes> in the new react update */}
+        <Routes>
+          <Route exact path='/' element={<Home></Home>}></Route>
+          <Route path='/Projects' element={<Projects></Projects>}></Route>
+          <Route path='/Contact' element={<Contact></Contact>}></Route>
+        </Routes>
+      </div>
     </div>
   );
 }

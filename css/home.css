@@ -1,3 +1,16 @@
 body {
   margin: 0px;
+  background-color: black;
+}
+
+#root {
+  background-image: url("../../images/conor-luddy-IGa3Md8wP6g-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  max-width: 466px;
+  margin: 0px auto 0px auto;
 }/*# sourceMappingURL=home.css.map */
