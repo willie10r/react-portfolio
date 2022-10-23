@@ -9,13 +9,12 @@ const Navigation = () => {
         <header>
             <h2 className='title'>Willie Morris</h2>
             <ul className='nav-bar'>
-                <li id='home-btn'><NavLink to='/'>Home</NavLink></li>
-                <li id='projects-btn'><NavLink to='/projects'>My Projects</NavLink></li>
-                <li id='contact-btn'><NavLink to='contact'>Contact Me</NavLink></li>
+                <li id='home-btn'><NavLink to='/' style={{ color: '#c5e1a5', textDecoration: 'none' }} >Home</NavLink></li>
+                <li id='projects-btn'><NavLink to='/projects' style={{ color: '#c5e1a5', textDecoration: 'none' }} >My Projects</NavLink></li>
+                <li id='contact-btn'><NavLink to='contact' style={{ color: '#c5e1a5', textDecoration: 'none' }} >Contact Me</NavLink></li>
             </ul>
         </header>
     )
 };
-
 
 export default Navigation

@@ -1,5 +1,15 @@
-body {
+/*# sourceMappingURL=index.css.map */lor: black;
+}
+
+#root {
+  background-image: url("../../images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  margin: 0px auto 0px auto;
 }
 
 header {

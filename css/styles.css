@@ -1,5 +1,21 @@
 body {
+  color: #74872e;
+}
+
+body {
   margin: 0px;
+  background-color: black;
+}
+
+#root {
+  background-image: url("../../images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  margin: 0px auto 0px auto;
 }
 
 header {
@@ -22,6 +38,10 @@ header {
   margin: 0px;
   font-weight: 600;
   font-size: 1.2rem;
+}
+
+#nav-btn {
+  color: aqua;
 }
 
 #home-btn,
