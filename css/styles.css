@@ -1,5 +1,5 @@
 body {
-  color: #74872e;
+  color: #c5e1a5;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
 }
 
 #root {
-  background-image: url("../../images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-image: url("../../images/stock-photo-elegant-abstract-background-design-green.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -18,13 +18,20 @@ body {
   margin: 0px auto 0px auto;
 }
 
+#about-section,
+#skill-section,
+#hobbie-section,
+#unrelated-section {
+  margin: auto 20px auto 20px;
+}
+
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.title {
+.main-title {
   margin: 10px auto 5px auto;
   font-size: 2.5rem;
 }
@@ -40,12 +47,20 @@ header {
   font-size: 1.2rem;
 }
 
-#nav-btn {
+#nav-btn:active {
   color: aqua;
 }
 
 #home-btn,
 #projects-btn,
 #contact-btn {
-  margin: 5px auto 5px auto;
+  margin: 2px auto 2px auto;
+}
+
+#home-btn:hover,
+#projects-btn:hover,
+#contact-btn:hover {
+  background-color: #476930;
+  border-radius: 5px;
+  padding: 0px 5px 0px 5px;
 }/*# sourceMappingURL=styles.css.map */
