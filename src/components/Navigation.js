@@ -10,12 +10,14 @@ const Navigation = () => {
     return (
         <header>
             <h1 className='main-title'>Willie Morris</h1>
-            <button onClick={handleToggle}>{navOpen ? 'Close' : 'Open'}</button>
-            <ul className={'nav-bar ${navOpen ? ' show-nav' : ''}'}>
-            <li id='home-btn'><NavLink to='/' style={{ color: '#c5e1a5', textDecoration: 'none' }} >Home</NavLink></li>
-            <li id='projects-btn'><NavLink to='/projects' style={{ color: '#c5e1a5', textDecoration: 'none' }} >My Projects</NavLink></li>
-            <li id='contact-btn'><NavLink to='contact' style={{ color: '#c5e1a5', textDecoration: 'none' }} >Contact Me</NavLink></li>
-        </ul>
+            <nav className='navBar'>
+                <button onClick={handleToggle}>{navOpen ? 'Close' : 'Open'}</button>
+                <ul className={`nav-bars ${navOpen ? ' show-nav' : ''}`}>
+                    <li id='home-btn'><NavLink to='/' style={{ color: '#c5e1a5', textDecoration: 'none' }} >Home</NavLink></li>
+                    <li id='projects-btn'><NavLink to='/projects' style={{ color: '#c5e1a5', textDecoration: 'none' }} >My Projects</NavLink></li>
+                    <li id='contact-btn'><NavLink to='contact' style={{ color: '#c5e1a5', textDecoration: 'none' }} >Contact Me</NavLink></li>
+                </ul>
+            </nav>
         </header >
     )
 };
