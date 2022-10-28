@@ -13,7 +13,7 @@ import Navigation from './Navigation';
 import Home from './Home';
 import Projects from './Projects';
 import Contact from './Contact';
-
+import SocialFlow from './SocialFlow';
 const App = () => {
   return (
     <div className="App" >
@@ -26,6 +26,7 @@ const App = () => {
           <Route path='/Projects' element={<Projects></Projects>}></Route>
           <Route path='/Contact' element={<Contact></Contact>}></Route>
         </Routes>
+        <SocialFlow></SocialFlow>
       </div>
     </div>
   );

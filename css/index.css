@@ -30,15 +30,8 @@ header {
   font-size: 2.5rem;
 }
 
-.nav-bar {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  margin: 0px;
-  font-weight: 600;
-  font-size: 1.2rem;
+.nav-bars {
+  display: none;
 }
 
 #nav-btn:active {
@@ -48,58 +41,34 @@ header {
 #home-btn,
 #projects-btn,
 #contact-btn {
-  margin: 2px auto 2px auto;
+  margin: 15px auto 15px auto;
 }
 
 #home-btn:hover,
 #projects-btn:hover,
 #contact-btn:hover {
-  background-color: #476930;
+  background-color: #aaf777;
   border-radius: 5px;
   padding: 0px 5px 0px 5px;
 }
 
-/* sidebar Nav */
-.navBar {
-  position: relative;
-}
-
-.navBar button {
+.nav-bars.show-nav {
+  display: flex;
   position: fixed;
-  left: 40px;
-  top: 40px;
-  z-index: 10;
-  cursor: pointer;
-}
-
-.nav-bars {
-  overflow-y: scroll;
-  list-style: none;
-  position: fixed;
-  top: 0;
-  background: darkcyan;
-  left: 0;
-  bottom: 0;
+  top: -15px;
+  right: 0px;
   height: 100vh;
-  width: 0;
-  overflow: hidden;
-  max-width: 290px;
-  z-index: 9;
+  flex-direction: column;
+  background-color: #476930;
+  list-style: none;
+  padding-top: 50px;
+  padding-right: 30px;
+  text-align: center;
 }
 
-.nav-bars.showMenu {
-  width: 100%;
-}
-
-a {
-  display: block;
-  padding: 10px 40px;
-  text-decoration: none;
-  color: #3fffd2;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.nav-bars li:first-child {
-  margin-top: 7rem;
+.menu-button {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
 }/*# sourceMappingURL=index.css.map */

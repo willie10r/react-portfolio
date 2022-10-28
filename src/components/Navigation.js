@@ -11,7 +11,7 @@ const Navigation = () => {
     }
     return (
         <header>
-            <h1 className='main-title'>Willie Morris</h1>
+            <h2 className='nav-title'>{'<DevWillie>'}</h2>
             <nav className='navBar'>
                 <button className='menu-button' onClick={handleToggle}>{navOpen ? 'Close' : <ImMenu />}</button>
                 <ul className={`nav-bars ${navOpen ? ' show-nav' : ''}`}>
