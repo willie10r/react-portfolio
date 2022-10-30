@@ -1,25 +1,28 @@
 import React from 'react';
-import { SiGithub } from "react-icons/si";
-import { SiGithub } from "react-icons/si";
+import { SiGithub, SiCodewars } from "react-icons/si";
+import { TiSocialInstagram, TiSocialLinkedin } from "react-icons/ti";
+
 
 const SocialFlow = () => {
     return (
 
-        <section className='footer'>
-            <p>social buttons area</p>
-            <a href='https://github.com/willie10r'>
-                {<SiGithub size='25px' />}
-            </a>
-            <a href='https://github.com/willie10r'>
-                {<SlSocialInstagram size='25px' />}
-            </a>
-            <a href='https://github.com/willie10r'>
-                {<SiGithub size='25px' />}
-            </a>
-            <a href='https://github.com/willie10r'>
-                {<SiGithub size='25px' />}
-            </a>
-        </section>
+        <footer className='ft'>
+            <section>
+                <a href='https://github.com/willie10r' target="_blank">
+                    {<SiGithub size='30px' id='sf-git' />}
+                </a>
+                <a href='https://www.instagram.com/zx10rwillie/' target="_blank">
+                    {<TiSocialInstagram size='30px' id='sf-insta' />}
+                </a>
+                <a href='https://www.linkedin.com/in/willie-morris-0b2571229/' target="_blank">
+                    {<TiSocialLinkedin size='30px' id='sf-linked' />}
+                </a>
+                <a href='https://www.codewars.com/users/Willie10' target="_blank">
+                    {<SiCodewars size='30px' id='sf-codewar' />}
+                </a>
+            </section>
+            <div> &copy;willie morris 2022</div>
+        </footer>
     )
 }
 
