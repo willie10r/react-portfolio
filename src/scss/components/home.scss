@@ -30,7 +30,11 @@ body {
 #skill-section,
 #hobbie-section,
 #unrelated-section {
-    margin: auto 20px auto 20px;
+    margin: 10px 20px 5px 20px;
+    // the last number in the rgb is the trans part
+    background: rgba(18, 59, 14, 0.737);
+    border-radius: 20px;
+    padding: 10px;
 
 }
 
@@ -39,9 +43,22 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: white;
+    color: #aaf777;
     font-size: large;
     font-weight: 800;
+}
+
+#hobbie-list {
+    list-style: none;
+}
+
+.hl-title {
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+
+.hl-text {
+    margin: 5px auto 0px 10px;
 }
 
 //this is for the mediaquery 760px+
