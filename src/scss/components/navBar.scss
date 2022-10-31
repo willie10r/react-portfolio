@@ -47,7 +47,41 @@ header {
 
 .menu-button {
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: 20px;
+    right: 10px;
     z-index: 1;
+    padding: 0px;
+    border-radius: 20px;
+    border: 0;
+    background-color: black;
+}
+
+.menu-opn {
+    transition-duration: 2s;
+    background-color: #476930;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    margin: 0px;
+    margin-bottom: -5px;
+
+}
+
+.menu-opn:hover {
+    rotate: 180deg;
+    transition-duration: .5s;
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.menu-close {
+    transition-duration: 2s;
+    background-color: #476930;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    margin: 0px;
+    margin-bottom: -5px;
 }

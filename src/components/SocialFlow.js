@@ -21,7 +21,7 @@ const SocialFlow = () => {
                     {<SiCodewars size='30px' id='sf-codewar' />}
                 </a>
             </section>
-            <div> &copy;willie morris 2022</div>
+            <div> &copy; 2022 Willie Morris </div>
         </footer>
     )
 }
