@@ -27,7 +27,10 @@
 #skill-section,
 #hobbie-section,
 #unrelated-section {
-  margin: auto 20px auto 20px;
+  margin: 10px 20px 5px 20px;
+  background: rgba(18, 59, 14, 0.737);
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .gr {
@@ -35,9 +38,22 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: white;
+  color: #aaf777;
   font-size: large;
   font-weight: 800;
+}
+
+#hobbie-list {
+  list-style: none;
+}
+
+.hl-title {
+  text-decoration: underline;
+  margin-bottom: 0px;
+}
+
+.hl-text {
+  margin: 5px auto 0px 10px;
 }
 
 header {
@@ -88,7 +104,69 @@ header {
 
 .menu-button {
   position: fixed;
-  top: 0px;
-  right: 0px;
+  top: 20px;
+  right: 10px;
   z-index: 1;
+  padding: 0px;
+  border-radius: 20px;
+  border: 0;
+  background-color: black;
+}
+
+.menu-opn {
+  transition-duration: 2s;
+  background-color: #476930;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin: 0px;
+  margin-bottom: -5px;
+}
+
+.menu-opn:hover {
+  rotate: 180deg;
+  transition-duration: 0.5s;
+  width: 50px;
+  height: 50px;
+}
+
+.menu-close {
+  transition-duration: 2s;
+  background-color: #476930;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin: 0px;
+  margin-bottom: -5px;
+}
+
+.ft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto 10px auto;
+}
+
+#sf-git {
+  background-color: #476930;
+  color: aliceblue;
+  margin: 10px;
+}
+
+#sf-insta {
+  background-color: #476930;
+  color: aliceblue;
+  margin: 10px;
+}
+
+#sf-linked {
+  background-color: #476930;
+  color: aliceblue;
+  margin: 10px;
+}
+
+#sf-codewar {
+  background-color: aliceblue;
+  color: #476930;
+  margin: 10px;
 }/*# sourceMappingURL=index.css.map */
